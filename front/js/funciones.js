@@ -1,4 +1,4 @@
-const url ='http://localhost:8085/api/persona'
+const url ='https://recuperacion-node.onrender.com/api/persona'
 
 const listarPersona = async () => {
     let body = document.getElementById('contenido-persona')
