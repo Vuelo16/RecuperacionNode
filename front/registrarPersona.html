@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Registrar Personas</title>
+</head>
+
+<body>
+    <div class="container">
+        <h3>Registrar Productos</h3>
+        <div class="col s12">
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">add_circle_outline</i>
+                        <input type="hidden" id ="_id" class="validate">
+                        <input id="documento" name="documento" type="text" class="validate">
+                        <label for="documento">Documento:</label>
+                    </div>
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">add_circle_outline</i>
+                        <input id="nombre" name="nombre" type="text" class="validate">
+                        <label for="nombre">Nombre:</label>
+                    </div>
+
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">equalizer</i>
+                        <input id="nota1" name="nota1" type="number" class="validate">
+                        <label for="nota1">Nota 1:</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">equalizer</i>
+                        <input id="nota2" name="nota2" type="number" class="validate">
+                        <label for="nota2">Nota 2:</label>
+                    </div>
+                    <div class="input-field col s12">
+                        <i class="material-icons prefix">equalizer</i>
+                        <input id="nota3" name="nota3" type="number" class="validate">
+                        <label for="nota3">Nota 3:</label>
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-success" id="btn-registrarPersona">Guardar</button>
+                    </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="js/funciones.js"></script>
