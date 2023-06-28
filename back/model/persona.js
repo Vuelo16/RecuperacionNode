@@ -12,15 +12,21 @@ const PersonaSchema = Schema({
     },
     nota1: {
         type: Number,
-        required: [true, 'La nota1 es obligatoria']
+        required: [true, 'La nota1 es obligatoria'],
+        min : 0,
+        max : 5
     },
     nota2: {
         type: Number,
-        required: [true, 'La nota2 es obligatoria']
+        required: [true, 'La nota2 es obligatoria'],
+        min : 0,
+        max : 5
     },
     nota3: {
         type: Number,
-        required: [true, 'La nota3 es obligatoria']
+        required: [true, 'La nota3 es obligatoria'],
+        min : 0,
+        max : 5
     }
 })
 
